@@ -46,7 +46,7 @@ const vantaRef = useRef(null);
             </div>
             <div className="vanta-content">
                 <div>
-                    <h1>{`Vanta.js -> Karan patel media`}</h1>
+                    <h1>Daynoted</h1>
                     <p>Coming soon</p>
                 </div>
             </div>
