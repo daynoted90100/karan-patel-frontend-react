@@ -20,8 +20,10 @@ body {
 }
 
 .vanta-content div {
-  padding-top: 15%;
-  padding-left: 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15%;
 }
 .vanta-content h1 {
   color: white;
