@@ -3,6 +3,7 @@ import * as THREE from "three";
 // import VANTA from "vanta/dist/vanta.birds.min.js";
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import './App.css';
+import LettersAnimation from "./LettersAnimation";
 
 window.THREE = THREE;
 
@@ -39,6 +40,8 @@ const vantaRef = useRef(null);
     };
   }, []);
 
+  const text = 'DayNoted';
+
   return (
         <>
             <div id="vanta-net" ref={vantaRef}>
@@ -46,7 +49,8 @@ const vantaRef = useRef(null);
             </div>
             <div className="vanta-content">
                 <div>
-                    <h1>Daynoted</h1>
+                    {/* <h1>Daynoted</h1> */}
+                    <LettersAnimation text={text} />
                     <p>Coming soon</p>
                 </div>
             </div>
