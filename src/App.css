@@ -26,10 +26,10 @@ body {
 .vanta-content h1 {
   color: white;
   font-size: 3.75rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Rubik", sans-serif !important;
 }
 .vanta-content p {
   color: white;
   font-size: 1.75rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Rubik", sans-serif !important;
 }

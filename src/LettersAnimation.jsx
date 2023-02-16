@@ -4,17 +4,6 @@ const LettersAnimation = ({ text }) => {
   const [animatedText, setAnimatedText] = useState(text);
   let interval = null;
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      startAnimation();
-    }, 5000);
-
-    return () => {
-      clearInterval(interval);
-      clearTimeout(timer);
-    };
-  }, []);
-
   const startAnimation = () => {
     let iteration = 0;
 
@@ -43,9 +32,16 @@ const LettersAnimation = ({ text }) => {
     }, 30);
   };
 
+//   const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+      startAnimation();
+  }, []);
+
   return <h1 style={{ color: "white", fontSize: "5rem" }}>{animatedText}</h1>;
 };
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 export default LettersAnimation;
+
