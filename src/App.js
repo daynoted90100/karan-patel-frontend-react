@@ -4,6 +4,7 @@ import * as THREE from "three";
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import './App.css';
 import LettersAnimation from "./LettersAnimation";
+import MagicStarAnimation from "./MagicStarAnimation";
 
 window.THREE = THREE;
 
@@ -49,7 +50,8 @@ const vantaRef = useRef(null);
             </div>
             <div className="vanta-content">
                 <div>
-                    <LettersAnimation text={text} />
+                    <MagicStarAnimation />
+                    {/* <LettersAnimation text={text} /> */}
                     <p>Coming soon...</p>
                 </div>
             </div>
