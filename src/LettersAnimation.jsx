@@ -36,7 +36,7 @@ const LettersAnimation = ({ text }) => {
       startAnimation();
   }, []);
 
-  return <h1 style={{ color: "white", fontSize: "5rem" }}>{animatedText}</h1>;
+  return <h1>{animatedText}</h1>;
 };
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
