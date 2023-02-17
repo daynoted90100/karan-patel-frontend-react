@@ -49,9 +49,8 @@ const vantaRef = useRef(null);
             </div>
             <div className="vanta-content">
                 <div>
-                    {/* <h1>Daynoted</h1> */}
                     <LettersAnimation text={text} />
-                    <p>Coming soon</p>
+                    <p>Coming soon...</p>
                 </div>
             </div>
         </>

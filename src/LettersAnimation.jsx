@@ -32,8 +32,6 @@ const LettersAnimation = ({ text }) => {
     }, 30);
   };
 
-//   const [counter, setCounter] = useState(0);
-
   useEffect(() => {
       startAnimation();
   }, []);
